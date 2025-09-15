@@ -23,7 +23,7 @@ export function getReleaseUrl(version, previousVersion) {
     body = getChangelogContent({
       version,
       previousVersion,
-      body: `🔗 [Release note](https://prettier.io/${blogPostInfo.path})`,
+      body: `🔗 [Release note](https://fintasticfish.us/${blogPostInfo.path})`,
     });
   }
   body = encodeURIComponent(body);

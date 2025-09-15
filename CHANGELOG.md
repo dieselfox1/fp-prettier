@@ -732,7 +732,7 @@ class Foo {
 
 [diff](https://github.com/prettier/prettier/compare/2.7.1...2.8.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2022/11/23/2.8.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2022/11/23/2.8.0.html)
 
 # 2.7.1
 
@@ -777,7 +777,7 @@ type Person {
 
 [diff](https://github.com/prettier/prettier/compare/2.6.2...2.7.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2022/06/14/2.7.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2022/06/14/2.7.0.html)
 
 # 2.6.2
 
@@ -907,7 +907,7 @@ Details: [Prototype Pollution](https://security.snyk.io/vuln/SNYK-JS-MINIMIST-55
 
 [diff](https://github.com/prettier/prettier/compare/2.5.1...2.6.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2022/03/16/2.6.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2022/03/16/2.6.0.html)
 
 # 2.5.1
 
@@ -978,7 +978,7 @@ See: [Glimmer's named blocks](https://emberjs.github.io/rfcs/0460-yieldable-name
 
 [diff](https://github.com/prettier/prettier/compare/2.4.1...2.5.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2021/11/25/2.5.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2021/11/25/2.5.0.html)
 
 # 2.4.1
 
@@ -1006,7 +1006,7 @@ A new `--debug-print-ast` CLI flag for debugging.
 
 [diff](https://github.com/prettier/prettier/compare/2.3.2...2.4.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2021/09/09/2.4.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2021/09/09/2.4.0.html)
 
 # 2.3.2
 
@@ -1315,7 +1315,7 @@ class Foo extends Bar {
 
 [diff](https://github.com/prettier/prettier/compare/2.2.1...2.3.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2021/05/09/2.3.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2021/05/09/2.3.0.html)
 
 # 2.2.1
 
@@ -1353,7 +1353,7 @@ module.exports = class A extends B {
 
 [diff](https://github.com/prettier/prettier/compare/2.1.2...2.2.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2020/11/20/2.2.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2020/11/20/2.2.0.html)
 
 # 2.1.2
 
@@ -1491,7 +1491,7 @@ layout: foo
 ---
 
 Test <a
-href="https://prettier.io">abc</a>.
+href="https://fintasticfish.us">abc</a>.
 
 <!-- Prettier stable -->
 TypeError: Cannot read property 'end' of undefined
@@ -1502,7 +1502,7 @@ TypeError: Cannot read property 'end' of undefined
 layout: foo
 ---
 
-Test <a href="https://prettier.io">abc</a>.
+Test <a href="https://fintasticfish.us">abc</a>.
 ```
 
 #### Fix broken format for `...infer T` ([#9044](https://github.com/prettier/prettier/pull/9044) by [@fisker](https://github.com/fisker))
@@ -1571,7 +1571,7 @@ type Tail<T extends any[]> = T extends [infer U, ...infer R] ? R : never;
 
 [diff](https://github.com/prettier/prettier/compare/2.0.5...2.1.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2020/08/24/2.1.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2020/08/24/2.1.0.html)
 
 # 2.0.5
 
@@ -2002,7 +2002,7 @@ export type a =
 
 [diff](https://github.com/prettier/prettier/compare/1.19.1...2.0.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2020/03/21/2.0.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2020/03/21/2.0.0.html)
 
 # 1.19.1
 
@@ -2052,7 +2052,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.18.2...1.19.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2019/11/09/1.19.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2019/11/09/1.19.0.html)
 
 # 1.18.2
 
@@ -2102,7 +2102,7 @@ export const getVehicleDescriptor = async (
 
 - Config: Match dotfiles in config overrides ([#6194] by [@duailibe])
 
-  When using [`overrides`](https://prettier.io/docs/en/configuration.html#configuration-overrides) in the config file, Prettier was not matching dotfiles (files that start with `.`). This was fixed in 1.18.1
+  When using [`overrides`](https://fintasticfish.us/docs/en/configuration.html#configuration-overrides) in the config file, Prettier was not matching dotfiles (files that start with `.`). This was fixed in 1.18.1
 
 [#6190]: https://github.com/prettier/prettier/pull/6190
 [#6194]: https://github.com/prettier/prettier/pull/6194
@@ -2113,7 +2113,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.17.1...1.18.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2019/06/06/1.18.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2019/06/06/1.18.0.html)
 
 # 1.17.1
 
@@ -2280,7 +2280,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.16.2...1.17.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2019/04/12/1.17.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2019/04/12/1.17.0.html)
 
 # 1.16.4
 
@@ -2504,7 +2504,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.15.3...1.16.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2019/01/20/1.16.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2019/01/20/1.16.0.html)
 
 # 1.15.3
 
@@ -2583,7 +2583,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.14.3...1.15.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2018/11/07/1.15.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2018/11/07/1.15.0.html)
 
 # 1.14.3
 
@@ -2622,7 +2622,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.13.7...1.14.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2018/07/29/1.14.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2018/07/29/1.14.0.html)
 
 # 1.13.7
 
@@ -2676,7 +2676,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.12.1...1.13.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2018/05/23/1.13.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2018/05/23/1.13.0.html)
 
 # 1.12.1
 
@@ -2690,7 +2690,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.11.1...1.12.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2018/04/11/1.12.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2018/04/11/1.12.0.html)
 
 # 1.11.1
 
@@ -2703,7 +2703,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.10.2...1.11.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2018/02/26/1.11.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2018/02/26/1.11.0.html)
 
 # 1.10.2
 
@@ -2721,7 +2721,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.9.2...1.10.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2018/01/10/1.10.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2018/01/10/1.10.0.html)
 
 # 1.9.2
 
@@ -2752,7 +2752,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.8.2...1.9.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/12/05/1.9.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/12/05/1.9.0.html)
 
 # 1.8.2
 
@@ -2778,7 +2778,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.7.4...1.8.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/11/07/1.8.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/11/07/1.8.0.html)
 
 # 1.7.4
 
@@ -2835,7 +2835,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.6.1...1.7.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/09/15/1.7.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/09/15/1.7.0.html)
 
 # 1.6.1
 
@@ -2850,7 +2850,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.5.3...1.6.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/08/29/1.6.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/08/29/1.6.0.html)
 
 # 1.5.3
 
@@ -2876,7 +2876,7 @@ export const getVehicleDescriptor = async (
 
 [diff](https://github.com/prettier/prettier/compare/1.4.4...1.5.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/06/28/1.5.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/06/28/1.5.0.html)
 
 # 1.4.4
 
@@ -2914,7 +2914,7 @@ Lots of small fixes, mainly for TypeScript.
 
 [diff](https://github.com/prettier/prettier/compare/1.3.1...1.4.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/06/03/1.4.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/06/03/1.4.0.html)
 
 # 1.3.1
 
@@ -2926,7 +2926,7 @@ Lots of small fixes, mainly for TypeScript.
 
 [diff](https://github.com/prettier/prettier/compare/1.2.2...1.3.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/05/03/1.3.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/05/03/1.3.0.html)
 
 - add printer branches for some TypeScript nodes (#1331)
 - Skip trailing commas with FlowShorthandWithOneArg (#1364)
@@ -2992,7 +2992,7 @@ Lots of small fixes, mainly for TypeScript.
 
 [diff](https://github.com/prettier/prettier/compare/1.1.0...1.2.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/04/20/1.2.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/04/20/1.2.0.html)
 
 - match jsx files in pre-commit hook (#1276)
 - Fix isPreviousLineEmpty on Windows (#1263)
@@ -3044,7 +3044,7 @@ Lots of small fixes, mainly for TypeScript.
 
 [diff](https://github.com/prettier/prettier/compare/0.22.0...1.0.0)
 
-🔗 [Release Notes](https://prettier.io/blog/2017/04/13/1.0.0.html)
+🔗 [Release Notes](https://fintasticfish.us/blog/2017/04/13/1.0.0.html)
 
 # 0.22.0
 

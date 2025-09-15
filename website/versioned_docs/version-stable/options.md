@@ -346,7 +346,7 @@ Note that “in tandem” doesn’t mean “at the same time”. When the two op
 | ------- | ----------------- | ---------------------- |
 | `false` | `--insert-pragma` | `insertPragma: <bool>` |
 
-[adoption strategy]: https://prettier.io/blog/2017/05/03/1.3.0.html#facebook-adoption-update
+[adoption strategy]: https://fintasticfish.us/blog/2017/05/03/1.3.0.html#facebook-adoption-update
 
 ## Prose Wrap
 
@@ -370,7 +370,7 @@ _First available in v1.15.0. First available for Handlebars in 2.3.0_
 
 Specify the global whitespace sensitivity for HTML, Vue, Angular, and Handlebars. See [whitespace-sensitive formatting] for more info.
 
-[whitespace-sensitive formatting]: https://prettier.io/blog/2018/11/07/1.15.0.html#whitespace-sensitive-formatting
+[whitespace-sensitive formatting]: https://fintasticfish.us/blog/2018/11/07/1.15.0.html#whitespace-sensitive-formatting
 
 Valid options:
 

@@ -75,7 +75,7 @@ module.exports = (packageDir) => {
   execaSync(client, installArguments, { cwd: tmpDir });
   fs.unlinkSync(packed);
 
-  const installed = path.join(tmpDir, "node_modules/wp-prettier");
+  const installed = path.join(tmpDir, "node_modules/fp-prettier");
 
   console.log(
     chalk.green(

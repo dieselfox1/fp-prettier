@@ -83,14 +83,14 @@ layout: foo
 ---
 
 Test <a
-href="https://prettier.io">abc</a>.
+href="https://fintasticfish.us">abc</a>.
 
 =====================================output=====================================
 ---
 layout: foo
 ---
 
-Test <a href="https://prettier.io">abc</a>.
+Test <a href="https://fintasticfish.us">abc</a>.
 
 ================================================================================
 `;
@@ -105,14 +105,14 @@ printWidth: 80
 layout: foo
 ---
 Test <a
-href="https://prettier.io">abc</a>.
+href="https://fintasticfish.us">abc</a>.
 
 =====================================output=====================================
 ---
 layout: foo
 ---
 
-Test <a href="https://prettier.io">abc</a>.
+Test <a href="https://fintasticfish.us">abc</a>.
 
 ================================================================================
 `;

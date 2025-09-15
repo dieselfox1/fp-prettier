@@ -38,7 +38,7 @@ export default async function updateChangelog({ version, previousVersion }) {
     writeChangelog({
       version,
       previousVersion,
-      body: `🔗 [Release Notes](https://prettier.io/${blogPost.path})`,
+      body: `🔗 [Release Notes](https://fintasticfish.us/${blogPost.path})`,
     });
     if (fs.existsSync(blogPost.file)) {
       // Everything is fine, this step is finished

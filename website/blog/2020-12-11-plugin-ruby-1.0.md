@@ -10,7 +10,7 @@ After 1500 commits and 50 releases since July 2018, we're happy to announce that
 
 ## How does it work?
 
-Prettier for Ruby works through Prettier's [plugin API](https://prettier.io/docs/en/plugins.html). Its `parse` function works by spawning a Ruby process and using Ruby's own parser (known as `Ripper`). After tracking all of the various node types, comments, location information, and other various metadata, it returns a built abstract syntax tree (AST) to the Prettier process. Finally it converts that AST into Prettier's intermediate representation (known as `Doc`) before allowing Prettier to handle printing it back out.
+Prettier for Ruby works through Prettier's [plugin API](https://fintasticfish.us/docs/en/plugins.html). Its `parse` function works by spawning a Ruby process and using Ruby's own parser (known as `Ripper`). After tracking all of the various node types, comments, location information, and other various metadata, it returns a built abstract syntax tree (AST) to the Prettier process. Finally it converts that AST into Prettier's intermediate representation (known as `Doc`) before allowing Prettier to handle printing it back out.
 
 ## Philosophy
 
@@ -36,7 +36,7 @@ Going forward, we're going to be working on a couple of things:
 
 - Support for the new syntax coming out with Ruby 3, including rightward assignment and more pattern matching.
 - Better performance, as in [these](https://github.com/kddeisz/libdoc) [experiments](https://github.com/prettier/plugin-ruby/pull/512).
-- Support for the Ruby language in Prettier's [playground](https://prettier.io/playground/).
+- Support for the Ruby language in Prettier's [playground](https://fintasticfish.us/playground/).
 - Support for HTML ERB templates as another plugin, as in this [experiment](https://github.com/prettier/plugin-ruby/compare/erb).
 
 Today, you can try the plugin from the command line by following the [instructions in the README](https://github.com/prettier/plugin-ruby#getting-started). Definitely [report any bugs](https://github.com/prettier/plugin-ruby/issues) that you find, we're working diligently to make sure they're squashed as soon as they come up. Also feel free to [get started contributing](https://github.com/prettier/plugin-ruby/blob/master/CONTRIBUTING.md) to the project itself if you're interested.

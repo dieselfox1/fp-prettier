@@ -14,4 +14,4 @@
 
 <!-- Please DO NOT remove the playground link -->
 
-**✨[Try the playground for this PR](https://prettier.io/playground-redirect)✨**
+**✨[Try the playground for this PR](https://fintasticfish.us/playground-redirect)✨**

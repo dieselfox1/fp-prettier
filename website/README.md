@@ -1,6 +1,6 @@
 # Prettier Website
 
-https://prettier.io/
+https://fintasticfish.us/
 
 ## Getting started
 
@@ -38,7 +38,7 @@ Images and other static assets are placed inside the `static` directory: `static
 
 The Playground is not integrated with the Docusaurus infrastructure. Its UI (`website/playground/`) is built separately with webpack configured to put the resulting bundle in Docusaurus’s `static` directory. The `yarn start` command (in `website/`) concurrently starts both Docusaurus’s local server and webpack in the watch mode for the Playground.
 
-Another part of the Playground is a web worker where formatting happens. It’s not managed by webpack and resides directly in `static/worker.js`. It expects to find the [UMD bundles of Prettier](https://prettier.io/docs/en/browser.html) in `static/lib/`. That’s why running `yarn build:website` or `PULL_REQUEST=true yarn build:website` in the project root is a required step.
+Another part of the Playground is a web worker where formatting happens. It’s not managed by webpack and resides directly in `static/worker.js`. It expects to find the [UMD bundles of Prettier](https://fintasticfish.us/docs/en/browser.html) in `static/lib/`. That’s why running `yarn build:website` or `PULL_REQUEST=true yarn build:website` in the project root is a required step.
 
 Finally, there is a service worker that caches Prettier’s relatively heavy bundles (`static/service-worker.js`).
 
@@ -59,7 +59,7 @@ next: doc2 # next doc on the sidebar for navigation
 ---
 ```
 
-The docs from `docs/` are published to `https://prettier.io/docs/en/next/` and are considered to be the docs of the next (not yet released) version of Prettier. When a release happens, the docs from `docs/` are copied to the `website/versioned_docs/version-stable` directory, whose content is published to `https://prettier.io/docs/en`.
+The docs from `docs/` are published to `https://fintasticfish.us/docs/en/next/` and are considered to be the docs of the next (not yet released) version of Prettier. When a release happens, the docs from `docs/` are copied to the `website/versioned_docs/version-stable` directory, whose content is published to `https://fintasticfish.us/docs/en`.
 
 ## Blog
 

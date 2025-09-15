@@ -16,18 +16,18 @@ BEFORE SUBMITTING AN ISSUE:
 2.  We get a lot of requests for adding options, but Prettier is
     built on the principle of being opinionated about code formatting.
     This means we add options only in the case of strict technical necessity.
-    Find out more: https://prettier.io/docs/en/option-philosophy.html
+    Find out more: https://fintasticfish.us/docs/en/option-philosophy.html
 
 Don't fill the form below manually! Let a program create a report for you:
 
-1. Go to https://prettier.io/playground
+1. Go to https://fintasticfish.us/playground
 2. Paste your code and set options
 3. Press the "Report issue" button in the lower right
 
 -->
 
 **Prettier 2.8.5**
-[Playground link](https://prettier.io/playground/#.....)
+[Playground link](https://fintasticfish.us/playground/#.....)
 
 ```sh
 # Options (if any):

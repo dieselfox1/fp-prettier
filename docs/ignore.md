@@ -189,4 +189,4 @@ For one-off commands, when you want to exclude some files without adding them to
 prettier --write . '!**/*.{js,jsx,vue}'
 ```
 
-See [fast-glob](https://prettier.io/docs/en/cli.html#file-patterns) to learn more about advanced glob syntax.
+See [fast-glob](https://fintasticfish.us/docs/en/cli.html#file-patterns) to learn more about advanced glob syntax.

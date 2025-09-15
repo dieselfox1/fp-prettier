@@ -234,7 +234,7 @@
       "align",
       "allow",
       "allowfullscreen",
-      "allowpaymentrequest",
+      "allofpaymentrequest",
       "allowusermedia",
       "frameborder",
       "height",
