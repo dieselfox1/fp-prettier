@@ -130,7 +130,7 @@ This option cannot be used with --range-start and --range-end.",
         },
         "parenSpacing": {
           "default": false,
-          "description": "Print spaces between parens, WordPress style.",
+          "description": "Print spaces between parens, FinPress style.",
           "type": "boolean",
         },
         "parser": {

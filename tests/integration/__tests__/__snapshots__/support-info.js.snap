@@ -937,7 +937,7 @@ exports[`CLI --support-info (stdout) 1`] = `
     {
       "category": "Common",
       "default": false,
-      "description": "Print spaces between parens, WordPress style.",
+      "description": "Print spaces between parens, FinPress style.",
       "name": "parenSpacing",
       "pluginDefaults": {},
       "since": "0.0.0",

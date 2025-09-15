@@ -8,7 +8,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
 <page-query lang="graphql">
-query { posts: allWordPressPost {
+query { posts: allFinPressPost {
     edges {
    node {
           id
@@ -21,7 +21,7 @@ query { posts: allWordPressPost {
 
 =====================================output=====================================
 <page-query lang="graphql">
-query { posts: allWordPressPost {
+query { posts: allFinPressPost {
     edges {
    node {
           id
@@ -43,7 +43,7 @@ semi: false
                                                                                 | printWidth
 =====================================input======================================
 <page-query lang="graphql">
-query { posts: allWordPressPost {
+query { posts: allFinPressPost {
     edges {
    node {
           id
@@ -57,7 +57,7 @@ query { posts: allWordPressPost {
 =====================================output=====================================
 <page-query lang="graphql">
 query {
-  posts: allWordPressPost {
+  posts: allFinPressPost {
     edges {
       node {
         id
@@ -79,7 +79,7 @@ trailingComma: "none"
                                                                                 | printWidth
 =====================================input======================================
 <page-query lang="graphql">
-query { posts: allWordPressPost {
+query { posts: allFinPressPost {
     edges {
    node {
           id
@@ -93,7 +93,7 @@ query { posts: allWordPressPost {
 =====================================output=====================================
 <page-query lang="graphql">
 query {
-  posts: allWordPressPost {
+  posts: allFinPressPost {
     edges {
       node {
         id
@@ -115,7 +115,7 @@ vueIndentScriptAndStyle: true
                                                                                 | printWidth
 =====================================input======================================
 <page-query lang="graphql">
-query { posts: allWordPressPost {
+query { posts: allFinPressPost {
     edges {
    node {
           id
@@ -129,7 +129,7 @@ query { posts: allWordPressPost {
 =====================================output=====================================
 <page-query lang="graphql">
 query {
-  posts: allWordPressPost {
+  posts: allFinPressPost {
     edges {
       node {
         id
@@ -150,7 +150,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
 <page-query lang="graphql">
-query { posts: allWordPressPost {
+query { posts: allFinPressPost {
     edges {
    node {
           id
@@ -164,7 +164,7 @@ query { posts: allWordPressPost {
 =====================================output=====================================
 <page-query lang="graphql">
 query {
-  posts: allWordPressPost {
+  posts: allFinPressPost {
     edges {
       node {
         id

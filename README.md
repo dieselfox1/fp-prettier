@@ -57,9 +57,9 @@
   <a href="https://twitter.com/PrettierCode">
     <img alt="Follow Prettier on Twitter" src="https://img.shields.io/twitter/follow/prettiercode.svg?label=follow+prettier&style=flat-square"></a>
 </p>
-# WordPress Prettier
+# FinPress Prettier
 
-This is a fork of Prettier that adds a new command line option `--paren-spacing` which inserts many extra spaces inside parentheses, the way how projects in the WordPress ecosystem (Calypso, Gutenberg, etc.) like to format their code.
+This is a fork of Prettier that adds a new command line option `--paren-spacing` which inserts many extra spaces inside parentheses, the way how projects in the FinPress ecosystem (Calypso, Gutenberg, etc.) like to format their code.
 
 In order to install the latest version, run
 

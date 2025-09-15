@@ -425,7 +425,7 @@ exports[`show detailed usage with --help paren-spacing (stderr) 1`] = `""`;
 exports[`show detailed usage with --help paren-spacing (stdout) 1`] = `
 "--paren-spacing
 
-  Print spaces between parens, WordPress style.
+  Print spaces between parens, FinPress style.
 
 Default: false
 "
