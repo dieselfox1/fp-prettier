@@ -27,7 +27,7 @@ function someFunction(url) {
     );
 }
 
-const mapChargeItems = fp.flow(
+const mapChargeItems = fin.flow(
   l => l < 10 ? l: 1,
   l => Immutable.Range(l).toMap()
 );

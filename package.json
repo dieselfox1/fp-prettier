@@ -1,11 +1,11 @@
 {
-  "name": "fp-prettier",
+  "name": "fin-prettier",
   "version": "2.8.5",
   "description": "Prettier is an opinionated code formatter",
   "bin": {
     "prettier": "./bin/prettier.js"
   },
-  "repository": "dieselfox1/fp-prettier",
+  "repository": "dieselfox1/fin-prettier",
   "funding": "https://github.com/prettier/prettier?sponsor=1",
   "homepage": "https://fintasticfish.us",
   "author": "James Long",

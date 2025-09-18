@@ -64,13 +64,13 @@ This is a fork of Prettier that adds a new command line option `--paren-spacing`
 In order to install the latest version, run
 
 ```sh
-npm i --save-dev "prettier@npm:fp-prettier@latest"
+npm i --save-dev "prettier@npm:fin-prettier@latest"
 ```
 
 To order to install a version based on a particular upstream version (like 1.x.x), run
 
 ```sh
-npm i --save-dev "prettier@git+https://github.com/dieselfox1/fp-prettier.git#fp-prettier-1.x.x"
+npm i --save-dev "prettier@git+https://github.com/dieselfox1/fin-prettier.git#fin-prettier-1.x.x"
 ```
 
 To figure out what the latest supported version of the fork is, look at the default branch of this repository.
@@ -79,18 +79,18 @@ To figure out what the latest supported version of the fork is, look at the defa
 
 This project uses the following convention for versions:
 
-- When there is a new version of prettier (eg: `prettier@2.0.5`), we'll rebase our changes on top of it and release as `fp-prettier@2.0.5-beta-1`.
-- If we found bugs, we'll release `fp-prettier@2.0.5-beta-2` and so on.
-- When we are confident our patch doesn't break we'll release it as `fp-prettier@2.0.5`.
-- If we found bugs after the release, we'll release them as `fp-prettier@2.0.6-alpha-1`, `fp-prettier@2.0.6-alpha-2`...
+- When there is a new version of prettier (eg: `prettier@2.0.5`), we'll rebase our changes on top of it and release as `fin-prettier@2.0.5-beta-1`.
+- If we found bugs, we'll release `fin-prettier@2.0.5-beta-2` and so on.
+- When we are confident our patch doesn't break we'll release it as `fin-prettier@2.0.5`.
+- If we found bugs after the release, we'll release them as `fin-prettier@2.0.6-alpha-1`, `fin-prettier@2.0.6-alpha-2`...
 
-The rationale is to ensure the version ordering gives you the latest patch. If you have a dependency on `fp-prettier@^2.0.0` you will get the following versions in order:
+The rationale is to ensure the version ordering gives you the latest patch. If you have a dependency on `fin-prettier@^2.0.0` you will get the following versions in order:
 
-- `fp-prettier@2.0.5-alpha-1` -> contains `prettier@2.0.4` + patch
-- `fp-prettier@2.0.5-alpha-N` -> contains to `prettier@2.0.4` + patch + fixes (if any)
-- `fp-prettier@2.0.5-beta-1` -> contains to `prettier@2.0.5` + patch
-- `fp-prettier@2.0.5-beta-1` -> contains to `prettier@2.0.5` + patch + fixes (if any)
-- `fp-prettier@2.0.5` -> contains to `prettier@2.0.5` + final patch
+- `fin-prettier@2.0.5-alpha-1` -> contains `prettier@2.0.4` + patch
+- `fin-prettier@2.0.5-alpha-N` -> contains to `prettier@2.0.4` + patch + fixes (if any)
+- `fin-prettier@2.0.5-beta-1` -> contains to `prettier@2.0.5` + patch
+- `fin-prettier@2.0.5-beta-1` -> contains to `prettier@2.0.5` + patch + fixes (if any)
+- `fin-prettier@2.0.5` -> contains to `prettier@2.0.5` + final patch
 
 The original readme continues unchanged below:
 
