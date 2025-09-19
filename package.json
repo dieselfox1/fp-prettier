@@ -1,5 +1,5 @@
 {
-  "name": "wp-prettier",
+  "name": "fin-prettier",
   "version": "3.0.3",
   "description": "Prettier is an opinionated code formatter",
   "bin": "./bin/prettier.cjs",

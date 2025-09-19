@@ -8813,9 +8813,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wp-prettier@workspace:.":
+"fin-prettier@workspace:.":
   version: 0.0.0-use.local
-  resolution: "wp-prettier@workspace:."
+  resolution: "fin-prettier@workspace:."
   dependencies:
     "@angular/compiler": 16.2.2
     "@babel/code-frame": 7.22.10
@@ -8937,7 +8937,7 @@ __metadata:
     wcwidth: 1.0.1
     yaml-unist-parser: 2.0.1
   bin:
-    wp-prettier: ./bin/prettier.cjs
+    fin-prettier: ./bin/prettier.cjs
   languageName: unknown
   linkType: soft
 
